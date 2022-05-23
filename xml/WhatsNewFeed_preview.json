@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">
+  <channel xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom">
+    <title>Azure Stack service updates</title>
+    <link>https://azurestackhubdocs.azurewebsites.net/xml/WhatsNewFeed.json</link>
+    <description>Azure Stack service updates</description>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 July 2020 16:00:19 Z</lastBuildDate>
+    <atom:link href="https://azurestackhubdocs.azurewebsites.net/xml/WhatsNewFeed.xml" rel="self"
+      type="application/rss+xml" />
+    <item>
+      <guid isPermaLink="false">this-build-offers-support-for-3-new-gpu-vm-types-and-size</guid>
+      <link>https://aka.ms/ptlnk-gpus</link>
+      <title>GPUs</title>
+      <description>This build offers support for 3 new GPU VM types- NCv3 (Nvidia V100), NVv4 (AMD Mi25) and NC_T4
+        (NVIDIA T4) VM size. VM deployments will be successful for those who have the right hardware and are onboarded
+        onto the Azure Stack Hub GPU preview program. If you are interested, sign up for the GPU preview program at
+        https://aka.ms/azurestackhubgpupreview.</description>
+      <pubDate>Mon, 13 July 2020 16:00:19 Z</pubDate>
+      <atom:content type="text">This build offers support for 3 new GPU VM types- NCv3 (Nvidia V100), NVv4 (AMD Mi25)
+        and NC_T4 (NVIDIA T4) VM size. VM deployments will be successful for those who have the right hardware and are
+        onboarded onto the Azure Stack Hub GPU preview program. If you are interested, sign up for the GPU preview
+        program at https://aka.ms/azurestackhubgpupreview.</atom:content>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">save-logs-locally</guid>
+      <link>https://aka.ms/ptlnk-locallogs</link>
+      <title>Save Logs Locally</title>
+      <description>There is a new option in the Azure Stack Hub admin portal for air-gapped/disconnected Azure Stack Hub
+        customers, to save logs locally. You can store the logs in a local SMB share when Azure Stack Hub is
+        disconnected from Azure.</description>
+      <pubDate>Mon, 13 July 2020 16:00:19 Z</pubDate>
+      <atom:content type="text">There is a new option in the Azure Stack Hub admin portal for air-gapped/disconnected
+        Azure Stack Hub customers, to save logs locally. You can store the logs in a local SMB share when Azure Stack
+        Hub is disconnected from Azure.</atom:content>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">known-issues</guid>
+      <link>https://aka.ms/ptlnk-knownissues</link>
+      <title>Known Issues</title>
+      <description>Before creating a Service Request we highly recommend viewing the 'Known Issues' list associated with
+        each Azure Stack Build. The list is updated as new 'known issues' are identified. </description>
+      <pubDate>Mon, 13 July 2020 16:00:19 Z</pubDate>
+      <atom:content type="text">Before creating a Service Request we highly recommend viewing the 'Known Issues' list
+        associated with each Azure Stack Build. The list is updated as new 'known issues' are identified.
+      </atom:content>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <guid isPermaLink="false">enable-multitenancy</guid>
+      <link>https://docs.microsoft.com/azure-stack/operator/enable-multitenancy</link>
+      <title>Configure multi-tenancy using the administrator portal</title>
+      <description>You can configure Azure Stack Hub with the administrator portal to support sign-ins from users that
+        reside in other Azure Active Directory (Azure AD) directories, allowing them to use services in Azure Stack Hub.
+      </description>
+      <pubDate>Wed, 19 May 2021 16:00:00 Z</pubDate>
+      <atom:content type="text">You can configure Azure Stack Hub with the administrator portal to support sign-ins from
+        users that reside in other Azure Active Directory (Azure AD) directories, allowing them to use services in Azure
+        Stack Hub.</atom:content>
+      <content:encoded></content:encoded>
+    </item>
+  </channel>
+</rss>

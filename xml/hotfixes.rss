@@ -1,0 +1,310 @@
+<?xml version="1.0" ?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <atom:link href="https://azurestackhubdocs.azurewebsites.net/xml/hotfixes.rss" rel="self" type="application/rss+xml"/>
+        <title>Azure Stack Hub Hotfixes</title>
+        <link>https://docs.microsoft.com/azure-stack/</link>
+        <description>Hotfixes for Azure Stack Hub</description>
+        <item>
+            <title>Hotfix 1.2002.66.173</title>
+            <description>Fixed an invalid state in Storage Resource Provider for storage accounts migrated from 1910 with suspended state. Improved resiliency of VM provisioning and extension operations.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-66-173</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-66-173</guid>
+            <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2002.67.175</title>
+            <description>Patched SDN-related binaries on the physical nodes.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-67-175</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-67-175</guid>
+            <pubDate>Thu, 11 Mar 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2002.69.179</title>
+            <description>Fixed a bug in which BCDR runner logs filled up MASLogs folders on physical hosts.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-69-179</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2002-69-179</guid>
+            <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.29.100</title>
+            <description>Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration. Improved reliability of log collection for SDN roles by collecting on file share.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-29-100</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-29-100</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.30.102</title>
+            <description>Fixed an invalid state in Storage resource provider for storage accounts migrated from 1910 with suspended state. Improved resiliency of VM provisioning, extension, and image operations.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-30-102</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-30-102</guid>
+            <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.32.106</title>
+            <description>Fixed a bug in local health system that potentially increased memory pressure on infrastructure. Patched SDN-related binaries on the physical nodes.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-32-106</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-32-106</guid>
+            <pubDate>Thu, 11 Mar 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.33.108</title>
+            <description>Fixed an issue in which partner node certificates required by nchotagent might be deleted. Fixed VM NICs getting a different hardware identifier after VM is deallocated and restarted. Fixed an issue in which infrastructure VM deployment can fail after applying a hotfix. Fixed an issue in which a secondary blob data partition cannot be loaded in some error cases.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-33-108</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-33-108</guid>
+            <pubDate>Wed, 07 Apr 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.35.112</title>
+            <description>Enhanced idempotent logic in handling malfunctioning TPMs. Fixed an issue in which uninstalling some extensions put previously deployed extensions into a failed state.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-35-112</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-35-112</guid>
+            <pubDate>Wed, 28 Apr 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.41.124</title>
+            <description>Patched missing Hyper-V endpoint, enabling compute control plane operations to call the appropriate endpoint. Fixed a bug in which BCDR runner logs filled up MASLogs folders on physical hosts. Added monitoring for WMI and remediation.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-41-124</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-41-124</guid>
+            <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.42.126</title>
+            <description>Accounted for some ghost NIC scenarios when deleting a resource group. Improved reliability of process watchdog. Fixed bugs that increased memory pressure on infrastructure.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-42-126</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-42-126</guid>
+            <pubDate>Wed, 14 Jul 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.46.133</title>
+            <description>Fix for more ghost NIC scenarios when deleting a resource group. Added banner to warn users when a certificate will expire soon. Fix for more ghost NIC scenarios when deleting a resource group.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-46-133</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-46-133</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.47.135</title>
+            <description>Removed overly verbose logging from Software Load Balancer VMs.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-47-135</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-47-135</guid>
+            <pubDate>Wed, 08 Sep 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2005.48.137</title>
+            <description>Addressed an issue in the Reset-CloudAdminPassword cmdlet. Updated Network Controller to fix bugs in PA VIP allocation and IP-MAC leaks.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-48-137</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2005-48-137</guid>
+            <pubDate>Thu, 07 Oct 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.25.114</title>
+            <description>Fixed issue in internal secret rotation that would fail with a timeout error if value-add resource providers were unhealthy. Fixed a bug in which closed alerts' Last Modified Time was updated in the operator portal even if the alert stayed closed. Optimized operator alert request handling, which reduces the chance of timeouts when viewing alerts in the operator portal or monitoring them via SCOM. Check and enforce key protectors on cluster shared volumes per host. Fixed issue in which Managed Disk usage data was not being reported after the 2008 update. Fixed VMs losing connectivity while SuspendNode is occurring in MAS, as part of host reboot during patch and update. Added PEP to retrieve current registration details, stale object cleanup for Remove-Registration. Fixed a bug which caused the Infrastructure Roles panel in the operator portal to display incorrect health information. Improved reliability of log collection for SDN roles by collecting logs on the file share.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-25-114</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-25-114</guid>
+            <pubDate>Fri, 05 Feb 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.26.116</title>
+            <description>Fixed appearance of ghost NICs when deleting a resource group. Fixed regression in Test-AzureStack that caused VM deployment test case to automatically skip. Improved resiliency of VM provisioning, extension, and image operations. Fixed an invalid state in Storage resource provider for storage accounts migrated from 1910 with suspended state. Fixed a bug in local health system that potentially increased memory pressure on infrastructure.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-26-116</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-26-116</guid>
+            <pubDate>Fri, 19 Feb 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.27.118</title>
+            <description>Patched SDN-related binaries on the physical nodes. Improved reliability and diagnosing capabilities of patch and update. Added auto-remediation for SQL cluster. Updated Healthagent to use Nugetstore. Filtered WHS alert for Netadapter. Fixed an issue in which the copy of a certificate used by Service Fabric was overwritten.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-27-118</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-27-118</guid>
+            <pubDate>Thu, 11 Mar 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.31.126</title>
+            <description>Fixed VM NICs getting a different hardware identifier after VM is deallocated and restarted. Monitored and rebooted VMs based on memory pressure. Added AzsGBRReadiness in Test-AzureStack to check physical disks' health for granular bitmap repair readiness. Reactivated firewall rules to enable SNMP traffic on ERCS VMs. Fixed an issue in which modifying any properties on the Local Network Gateway was causing other VPN connections on that gateway to disconnect. Fixed an issue in which infrastructure VM deployment can fail after applying a hotfix. Cleaned up stale user profile folders to clear disk space. Fixed an issue in which a secondary blob data partition cannot be loaded in some error cases. Fixed some bugs with the use of temporary domain accounts. Enhanced temporary domain account naming to ensure uniqueness.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-31-126</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-31-126</guid>
+            <pubDate>Thu, 08 Apr 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.33.131</title>
+            <description>Enhanced idempotent logic in handling malfunctioning TPMs. Fixed an issue in which uninstalling some extensions put previously deployed extensions into a failed state. Fixed an issue in which duplicate installed updates were shown in the update history list. Fixed an intermittent issue in which FRU of SRNG could fail connecting to the ECE agent.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-33-131</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-33-131</guid>
+            <pubDate>Wed, 28 Apr 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.37.139</title>
+            <description>Improved update reliability by adding detection and self-healing for low available memory conditions on ERCS VMs at the beginning of the update orchestration. Fixed a bug in which BCDR runner logs fill up MASLogs folders on physical hosts. Added monitoring for WMI and remediation. Added Network Controller IMOS size check to Test-AzureStack. Fixed internal secret rotation failures (failing at the NC:Secret rotate step), seen after updating to Azure Stack Hub version 1.2008.25.114 or higher from the latest 2005 release. Configured stamp ADFS to monitor corporate ADFS signing certificate rollover. This is for Azure Stack Hub with ADFS identity systems when Azure Stack Hub is configured with corp ADFS and a federation metadata endpoint. Fixed alert to remediation linking. Moved memory-critical alert to preview. Fixed health package registration, removing duplicate artifact creation. Improved reliability of RdAgent upgrade.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-37-139</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-37-139</guid>
+            <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.40.148</title>
+            <description>ETW trace sessions are configured to use 16 MB of non-pagedpool memory. Trace sessions now report lost event count (if any) per session, during ETL file rotation in TraceCollector Eventlog. This releases critical non-paged pool memory for other services on hosts and VMs. Also fixed various bugs in Tracecollector. Fixed a bug in resource provider (for example, Event Hubs) deployment, update, or secret rotation. The operation previously failed with no apparent failure cause. The fix allows the operation to complete successfully. Extended the update readiness checks to cover more Service Fabric health and VM health checks; for example, memory usage and storage disk capacity checks. Fixed bugs that increased memory pressure on infrastructure. Fixed bugs that caused operator portal blades to fail to load. Improved reliability of Process Watchdog.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-148</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-148</guid>
+            <pubDate>Wed, 14 Jul 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.40.150</title>
+            <description>Added banner to warn users when a certificate will expire soon. Improved reliability of update from 2008 to 2102. Improved reliability of update from 2005 to 2008. Improved RdAgent availability by removing empty RdAgent files. Fix for more ghost NIC scenarios when deleting a resource group. Fixed an issue that, in rare cases, deleted VNet peerings.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-150</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-150</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.40.151</title>
+            <description>Improved resiliency of compute admin operations. Removed overly verbose logging from Software Load Balancer VMs.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-151</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-151</guid>
+            <pubDate>Wed, 08 Sep 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.40.154</title>
+            <description>Improved auto-remediation workflow for memory utilization. Addressed an issue in the Reset-CloudAdminPassword cmdlet. Updated Network Controller to fix bugs in PA VIP allocation and IP-MAC leaks. Improved resiliency of PEP startup script.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-154</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-154</guid>
+            <pubDate>Thu, 07 Oct 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.40.156</title>
+            <description>Added graphs to Storage area that show volume performance. Improved Datapruner processing to minimize actor timeout alerts.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-156</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-40-156</guid>
+            <pubDate>Wed, 19 Jan 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.28.87</title>
+            <description>Updated memory configuration for VM sizes Standard_NC16as_T4_v3 and Standard_NC64as_T4_v3. Removed legacy SRP SQL instances and DB files to free up stamp resources. Fixed a bug in which the cluster status can be stuck in &quot;Configuring Storage&quot; after adding a new node. Fixed health package registration, removing duplicate artifact creation. Fixed a bug that sometimes caused health blades in the operator portal to become unavailable. Fixed a bug in which BCDR runner logs filled up MASLogs folders on physical hosts. Added monitoring of WMIProvider health and remediation. Added Network Controller IMOS size check to Test-AzureStack. Fixed a bug in SSL certificate validation during internal secret rotation. Fixed process watchdog memory leaks. Updated Defender platform to version 4.18.2103.7.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-87</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-87</guid>
+            <pubDate>Thu, 10 Jun 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.28.89</title>
+            <description>ETW trace sessions are configured to use 16 MB of non-pagedpool memory. Trace sessions now report lost event count (if any) per session, during ETL file rotation in TraceCollector Eventlog. This releases critical non-paged pool memory for other services on hosts and VMs. Also fixed various bugs in Tracecollector. Fixed bugs that increased memory pressure on infrastructure. Fixed bugs in AD FS and Azure Stack Graph to improve deployment and upgrade reliability. Fixed bugs in SRP and DiskRP in which performance counters were missing in the WAC client. Fixed a bug in resource provider (for example, Event Hubs) deployment, update, or secret rotation. The operation previously failed with no apparent failure cause. The fix allows the operation to complete successfully. Fixed a bug that incorrectly raised a PnPDevice.Attached alert for a set of devices (mouse, keyboard, etc.) that were safe. Set memory alert to preview. Addressed an issue with host agent monitors. Fixed a trust relationship issue with container applications in FabricRing. Improved RdAgent availability by removing empty RdAgent files. Improved reliability of full update. Increased update readiness checks.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-89</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-28-89</guid>
+            <pubDate>Tue, 06 Jul 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.101</title>
+            <description>Fixed a multi-tenancy website security issue. Improved reliability of update from 2008 to 2102. Fix for adding availability set to SQL VM in the SQL VM creation process. Fix for setting storage size in SQL VM configuration to more than 1000 GB. Fixed group-based authorization errors for users that require group expansion.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-101</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-101</guid>
+            <pubDate>Mon, 16 Aug 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.102</title>
+            <description>Improved resiliency of compute admin operations. Removed overly verbose logging from Software Load Balancer VMs. Fixed a memory leak issue and improved memory efficiency for monitoring services.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-102</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-102</guid>
+            <pubDate>Wed, 08 Sep 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.104</title>
+            <description>Improved auto-remediation workflow for memory utilization.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-104</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-104</guid>
+            <pubDate>Thu, 07 Oct 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.106</title>
+            <description>Fixed an issue in which System Center Operations Manager (SCOM) was unable to close operator portal alerts.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-106</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-106</guid>
+            <pubDate>Thu, 28 Oct 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.109</title>
+            <description>Improved logic for incremental snapshot creation and deletion. Improved resiliency in PEP startup script.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-109</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-109</guid>
+            <pubDate>Mon, 08 Nov 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.116</title>
+            <description>Add retry for get-volume requests in Test-AzureStack infra capacity check. Shorten the &quot;break-glass&quot; tokens and make them human-readable. Fixed a bug related to physical disk health when repairing a node with SED drives. Improved Datapruner processing to minimize actor timeout alerts. Enabled rotation of health agent SSL certificate as part of internal secret rotation. Added graphs to Storage area that show volume performance.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-116</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-116</guid>
+            <pubDate>Mon, 13 Dec 2021 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.118</title>
+            <description>Various bug fixes and enhancements.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-118</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-118</guid>
+            <pubDate>Wed, 19 Jan 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2108.2.73</title>
+            <description>Fixed a disk snapshot failure and VM IO hang when taking snapshots.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-73</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-73</guid>
+            <pubDate>Wed, 23 Feb 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2108.2.81</title>
+            <description>Support for new Kubernetes versions in AKS. Fixed bugs in trace collector. Fixed a bug related to physical disk health when repairing a node with SED drives. Improvements to support tools. Fixed bugs in log collection.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-81</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-81</guid>
+            <pubDate>Wed, 23 Feb 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.122</title>
+            <description>Resolved an issue in which the Create a Virtual Machine image dropdown displays image options that are not available or were not downloaded to the stamp. Fixed an issue in which the PrivateWorkingSet queried value overflows if larger than 4 GB. Removed some unnecessary detailed error information on the administrator portal. Improvements to support tools. Resolved an issue with some Key Vault applications being in an unhealthy state while updating from 2102 to later builds.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-122</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-122</guid>
+            <pubDate>Tue, 15 Mar 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2108.2.83</title>
+            <description>Support for new Kubernetes versions in AKS. Fixed bugs in trace collector. Fixed a bug related to physical disk health when repairing a node with SED drives. Improvements to support tools. Fixed bugs in log collection. Fixed code defect leading to VM deployment failures. Improved the resolution of the Network Resource Provider. Fixed a bug in incremental disk snapshots in which a failed snapshot can block any future snapshot operations.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-83</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-83</guid>
+            <pubDate>Wed, 16 Mar 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.41.159</title>
+            <description>Improvements to support tools.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-159</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-159</guid>
+            <pubDate>Thu, 17 Mar 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.132</title>
+            <description>Fixed an issue that could impact updating to 2108. Resolved an issue in which the Create a Virtual Machine image dropdown displays image options that are not available or were not downloaded to the stamp. Fixed an issue in which the PrivateWorkingSet queried value overflows if larger than 4 GB. Removed some unnecessary detailed error information on the administrator portal. Improvements to support tools. Resolved an issue with some Key Vault applications being in an unhealthy state while updating from 2102 to later builds.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-132</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-132</guid>
+            <pubDate>Thu, 14 Apr 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2108.2.102</title>
+            <description>Fixed an issue that could impact updating from 2102 to 2108.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-102</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-102</guid>
+            <pubDate>Thu, 28 Apr 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2108.2.111</title>
+            <description>Fixed an issue in which some StorageController requests might time out under high concurrency. Removed some of the network performance counters and reduced collection interval for other perf counters. Cleaned up unneeded networking traces from Baremetal, NC and XRP VMs. Fixed an issue deleting Microsoft.ContainerService/managedCluster resources that occurred when resources managed by the AKS resource provider were manually deleted beforehand. Fixed a regression in which VM status is reported as UNKNOWN in the portal.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-111</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2108-2-111</guid>
+            <pubDate>Mon, 23 May 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2102.30.146</title>
+            <description>Fixed a bug in incremental disk snapshots in which a failed snapshot can block any future snapshot operation. Fixed a mismatched cluster name issue in FRP.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-146</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2102-30-146</guid>
+            <pubDate>Mon, 23 May 2022 00:00:00 -0000</pubDate>
+        </item>
+        <item>
+            <title>Hotfix 1.2008.41.161</title>
+            <description>Fixes and performance enhancements.</description>
+            <link>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-161</link>
+            <guid>https://docs.microsoft.com/azure-stack/operator/hotfix-1-2008-41-161</guid>
+            <pubDate>Mon, 23 May 2022 00:00:00 -0000</pubDate>
+        </item>
+    </channel>
+</rss>
